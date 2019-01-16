@@ -296,5 +296,8 @@ RCT_EXPORT_METHOD(stopSession) {
             };
 }
 
-
++ (BOOL)requiresMainQueueSetup
+{
+    return NO;
+}
 @end
